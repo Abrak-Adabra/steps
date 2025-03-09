@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
         unoptimized: true,
     },
     env: {
-        PRIVATE_KEY: process.env.PRIVATE_KEY,
+        NEXT_PUBLIC_PRIVATE_KEY: process.env.NEXT_PUBLIC_PRIVATE_KEY,
     },
 }
 
