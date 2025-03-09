@@ -1,3 +1,3 @@
 export default function Main() {
-    return <>{process.env.PRIVATE_KEY || 'здесь ничего нет...'}</>
+    return <>{process.env.NEXT_PUBLIC_PRIVATE_KEY || 'здесь ничего нет...'}</>
 }
