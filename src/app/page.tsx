@@ -1,4 +1,4 @@
-'use client'
+import Main from '@/pages/main'
 
 export default function Home() {
     return (
@@ -7,6 +7,7 @@ export default function Home() {
             <form>
                 <input type="password" title="введите пароль" />
             </form>
+            <Main />
         </>
     )
 }
